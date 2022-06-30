@@ -1,0 +1,31 @@
+
+:root{
+    --borde-colores: 7px dashed black;
+    --color-principal: crimson;
+}
+*{
+box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.title{
+    border: var(--borde-colores);
+    color: var(--color-principal) ;
+}
+
+.btn{
+    border: var(--borde-colores);
+    text-decoration: none;
+    color: aliceblue;
+    background-color: var(--color-principal);
+    padding: 15px 30px;
+    display: inline-block;
+}
+
+.paragraph{
+    color: var(--color-principal);
+    border: var(--borde-colores);
+}

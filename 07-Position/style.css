@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    height: 1200px;
+}
+
+.container{
+    width: 90%;
+    height: 500px;
+    border: 2px solid #000;
+    margin: 80px auto;
+}
+
+.position{
+    width: 150px;
+    height: 100px;
+    font-size: 1.3rem;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+}
+.static{
+    /*ES la posicion por defecto*/
+background-color: midnightblue;
+position: static;
+}
+
+.relative{
+    /*apre los estado y puede moverse relativamente de su posicion inicial*/
+    background-color: tomato;
+    position: relative;
+    /* top: ;
+    left: ;
+    bottom: ;
+    right: ; */
+    /* top: 50px;
+    left: 30px; */
+}
+
+.absolute{
+    /*apre los estado y puede moverse relativamente a la posicion del padre
+    siempre y cuando el padre tenga una posicion diferente a static*/
+    background-color: purple;
+    position: absolute;
+    top: 30px;
+}
+
+.fixed{
+    /*Se mantiene fija a la posicion del padre*/
+    background-color: royalblue;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.sticky{
+    /*se meve junto con el padre principal*/
+    width: 140px;
+    height: 140px;
+    background-color: slateblue;
+    position: sticky;
+
+    left: 40px;
+}

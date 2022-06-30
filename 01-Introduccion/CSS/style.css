@@ -1,0 +1,46 @@
+/*
+
+SELECTOR UNIVERSAL 
+*{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+SELECTOR DE TIPO
+h2{
+   color: orange;
+   font-size: 30px; 
+} 
+
+
+SELECTOR DE TIPO
+.titulo{
+    color: brown;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.negrita{
+    font-weight: bold;
+}
+
+
+SELECTOR DE ID 
+#titulo{
+    color: steelblue;
+    font-size: 50px;
+} */
+
+/* 
+.abuelito .titulo{
+    color: red;
+    font-size: 40px;
+
+}
+
+.abuelito> .titulo{
+    color: blue;
+} */
+
+

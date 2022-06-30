@@ -1,0 +1,85 @@
+/*.caja1{
+    background: steelblue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    font-family: Arial;
+   
+   padding-top: 30px;
+   padding-right:50px ;
+   padding-bottom: 70px;
+    padding-left: 100px;
+    /* padding: top right bottom left; 
+    padding: 30px, 50px, 70px, 100p;
+    padding: 30px;
+
+    border-color: purple;
+    border-style: solid;
+    border-width: 20px;
+
+    border-top-width: 30px;
+    border-right-width: 10px;
+    border-bottom-width: 20px;
+    border-bottom-width: 5px;
+
+    border-width: top right bottom left; 
+
+    border-width: 30px 10px 7px;
+    border-width: 15px;
+
+    border-style:ridge;
+
+    border-top-style: dotted;
+    border-left-style: dashed;
+    border-bottom-style: solid;
+    border-right-style:double ;
+
+    border-style: dotted dashed solid double;
+    border-style: dotted;
+    
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    
+
+    border-top-color: crimson;
+    border-right-color: black;
+    border-bottom-color: brown;
+    border-left-color: purple;
+
+     border-color: top rigth bottom left ; 
+    border-color: crimson black brown purple;
+
+    border: red solid 50px;
+}
+
+.caja1{
+    margin: 80px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+
+    margin: 20px 40px 60px;
+}
+*/
+
+
+
+.main{
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 30px;
+    padding:0.1;
+}
+.main-title{
+    margin-top: 40px;
+}
+.footer{
+    color: white;
+    background-color: slateblue;
+    margin-top: 50px;
+}

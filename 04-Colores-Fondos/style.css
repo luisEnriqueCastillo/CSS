@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    margin: 70px;
+    color: blue;
+    color: rgb(255, 105, 180, 0.502);
+    color: #e05bd5;
+    color: hsl(200, 100%, 50%);
+
+    /* RGB -> Red Green Blue*/
+    /*hsl -> Hue Saturacion Lightness*/
+    
+}
+
+.background{
+    height: 600px;
+    background-color: #4682b4;
+    /* background-image: url('images/laptop.png');
+    background-size: 100px 200px; 
+    /* background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(255, 0, 0, 0.274), rgba(0, 0, 255, 0.425)),url('images/space.png');
+    background-size: cover;
+    background-position: center;
+    padding: 0.1px;
+    /*top, left, bootom, right center*/
+}
+
+h2{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-size: 60px;
+}

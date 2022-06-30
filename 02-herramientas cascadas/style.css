@@ -1,0 +1,17 @@
+body{
+    font-family: cursive;
+    color: tomato;
+    border: 2px solid black;
+}
+
+h1{
+    font-family: cursive;
+    border: inherit;
+}
+
+a{
+    color: inherit;
+}
+input{
+    font-family: inherit;
+}

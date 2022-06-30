@@ -1,0 +1,49 @@
+/* .element{
+    box-sizing: content-box; primero coloca el tamaño al contenido
+    box-sizing: border-box;primero coloca medidas al borde y lo q sobra al cinenido
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+    border: 30px solid slateblue;
+    padding: 30px;
+    margin: 0 auto;
+} */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-size: 25px;
+}
+
+.block{
+    background-color: teal;
+    color: wheat;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 300px;
+    margin:0 auto;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.inline{
+    font-size: 20px;
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+}
+
+.button{
+    display: inline-block;
+    background-color:steelblue;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+

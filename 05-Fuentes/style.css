@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: slateblue;
+    color: white;
+    padding: 40px 20px;
+}
+
+.img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.title{
+    line-height: 500px;
+    /* letter-spacing:-2px; espaciado entre cada letra */
+    /* word-spacing: 40px; espaciado entre palabras*/
+    /* width: 150px; */
+    /* border: 2px solid white; */
+    /*hyphens: auto; pone salto de linea cuando se desborda el texto*/
+    /*overflow-wrap: break-word;Evita el desbordamiento de texto mas grandes*/
+    /* text-transform: uppercase; */
+    /*uppercase lowercase*/
+    text-align: center;
+    /* line-height: 160px;  espacio entre lineas*/
+    overflow-wrap: break-word;
+}
+
+.paragraph{
+    text-transform: uppercase;
+}
+
+.paragraph--first{
+    text-transform: lowercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

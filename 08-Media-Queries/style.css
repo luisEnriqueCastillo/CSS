@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.element{
+    margin: 80px auto;
+    width: 50%;
+    height: 200px;
+    background-color: royalblue;
+}
+/* de 500 a mas para q se aplique */
+ /* @media(max-width:500px){
+    body{
+        background-color: aquamarine;
+    }
+    .element{
+        background-color: blueviolet;
+    }
+} */
+/* 0-500 para aplicar de menoar a mayor*/
+@media(min-width:500px){
+    body{
+        background-color: black;
+    }
+    .element{
+        background-color: crimson;
+    }
+}
