@@ -1,0 +1,111 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    margin: 50px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 0;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s all;
+   
+}
+
+.btn-blue{
+    background-color: slateblue;
+}
+
+.btn-blue:active{
+    font-size: 30px;
+}
+
+.btn-red{
+    background-color: crimson;
+}
+ .btn-tomato{
+    background-color: tomato;
+ }
+ /*.elemento_referencia + .hermano_siguiente{
+
+ }*/
+
+ /* .btn-red:hover(pasa el mouse) ~ .button{
+    transform:translate(100%);
+ } */
+
+/* .btn-red:hover{
+    transform: scale(1.2);
+} */
+.input{
+display: block;
+margin: 20px;
+padding: 16px;
+font-size: inherit;
+font-family: inherit;
+}
+
+/* .input:focus{
+    background-color: black;
+    color: #fff;
+} */
+.input:focus + .label{
+    background-color: aqua;
+}
+
+.label{
+    background-color: crimson;
+    color: #fff;
+}
+
+.check{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.check:checked + .label{
+    background-color: green;
+}
+/* .check:checked{
+    transform: scale(2);
+} */
+
+ .element{
+    width: max-content;
+    padding: 20px;
+    /* width: 200px; */
+    /* height: 200px; */
+    background-color: steelblue;
+    color: #fff;
+    font-size: 30px;
+    margin: 60px;
+     /* transition: .3s;  */
+ }
+ /* .element:hover{
+    width: 300px;
+ } */
+
+ /* .element:target{
+    transform: translate(100%);
+ } */
+
+ /* pseudo elementos */
+/* ::before. ::after */
+.element::before{
+    content: "Name:";
+    background-color: green;
+    display: block;
+}
+.element::after{
+    content: "Soy Luis";
+    background-color: red;
+    padding: 16px;
+    display: block;
+}
